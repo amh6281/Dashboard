@@ -516,3 +516,162 @@ export const products = [
     inStock: true,
   },
 ];
+
+export const singleUser = {
+  id: 1,
+  title: "홍길동",
+  img: "https://images.pexels.com/photos/8405873/pexels-photo-8405873.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
+  info: {
+    name: "홍길동",
+    email: "hong@gmail.com",
+    phone: "010-0000-0000",
+    status: "verified",
+  },
+  chart: {
+    dataKeys: [
+      { name: "visits", color: "#82ca9d" },
+      { name: "clicks", color: "#8884d8" },
+    ],
+    data: [
+      {
+        name: "Sun",
+        visits: 4000,
+        clicks: 2400,
+      },
+      {
+        name: "Mon",
+        visits: 3000,
+        clicks: 1398,
+      },
+      {
+        name: "Tue",
+        visits: 2000,
+        clicks: 3800,
+      },
+      {
+        name: "Wed",
+        visits: 2780,
+        clicks: 3908,
+      },
+      {
+        name: "Thu",
+        visits: 1890,
+        clicks: 4800,
+      },
+      {
+        name: "Fri",
+        visits: 2390,
+        clicks: 3800,
+      },
+      {
+        name: "Sat",
+        visits: 3490,
+        clicks: 4300,
+      },
+    ],
+  },
+  activities: [
+    {
+      text: "홍길동 사용자가 플레이스테이션 5 디지털 에디션을 구매하였습니다.",
+      time: "3일 전",
+    },
+    {
+      text: "홍길동 사용자가 삼성 스마트TV 4K를 구매하였습니다.",
+      time: "1주일 전",
+    },
+    {
+      text: "홍길동 사용자가 델 데스크탑 KR211822를 구매하였습니다.",
+      time: "2주일 전",
+    },
+    {
+      text: "홍길동 사용자가 아이폰 14 Pro를 구매하였습니다.",
+      time: "한달 전",
+    },
+    {
+      text: "홍길동 사용자가 Logitech MX Master 3를 구매하였습니다.",
+      time: "한달 전",
+    },
+  ],
+};
+
+export const singleProduct = {
+  id: 1,
+  title: "플레이스테이션 5 디지털 에디션",
+  img: "https://store.sony.com.au/on/demandware.static/-/Sites-sony-master-catalog/default/dw1b537bbb/images/PLAYSTATION5W/PLAYSTATION5W.png",
+  info: {
+    productId: "Ps5SDF1156d",
+    color: "white",
+    price: "250,000",
+    producer: "Sony",
+    export: "Japan",
+  },
+  chart: {
+    dataKeys: [
+      { name: "visits", color: "#82ca9d" },
+      { name: "orders", color: "#8884d8" },
+    ],
+    data: [
+      {
+        name: "Sun",
+        visits: 4000,
+        orders: 2400,
+      },
+      {
+        name: "Mon",
+        visits: 3000,
+        orders: 1398,
+      },
+      {
+        name: "Tue",
+        visits: 2000,
+        orders: 3800,
+      },
+      {
+        name: "Wed",
+        visits: 2780,
+        orders: 3908,
+      },
+      {
+        name: "Thu",
+        visits: 1890,
+        orders: 4800,
+      },
+      {
+        name: "Fri",
+        visits: 2390,
+        orders: 3800,
+      },
+      {
+        name: "Sat",
+        visits: 3490,
+        orders: 4300,
+      },
+    ],
+  },
+  activities: [
+    {
+      text: "홍길동 사용자가 플레이스테이션 5 디지털 에디션을 구매하였습니다.",
+      time: "3일 전",
+    },
+    {
+      text: "홍길동 사용자가 플레이스테이션 5 디지털 에디션을 위시리스트에 담았습니다.",
+      time: "1주일 전",
+    },
+    {
+      text: "김철수 사용자가 플레이스테이션 5 디지털 에디션을 구매하였습니다.",
+      time: "2주일 전",
+    },
+    {
+      text: "김순 사용자가 상품을 수령하였습니다..",
+      time: "한달 전",
+    },
+    {
+      text: "박길 사용자가 플레이스테이션 5 디지털 에디션을 위시리스트에 담았습니다.",
+      time: "한달 전",
+    },
+    {
+      text: "최수 사용자가 상품을 수령하였습니다.",
+      time: "두달 전",
+    },
+  ],
+};
